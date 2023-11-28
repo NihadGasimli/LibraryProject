@@ -1,0 +1,122 @@
+body {
+    background-color: #720418;
+    height: 90vh;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    gap: 13px;
+    margin: 40px 35px 0px 0px;
+}
+
+.logo .logoImage img {
+    width: 67.056px;
+    height: 85.044px;
+    flex-shrink: 0;
+}
+
+.logo .logoText {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo .logoText h2 {
+    width: 208px;
+    height: 20px;
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.logo .logoText hr {
+    width: 203px;
+    height: 1px;
+    color: rgba(255, 255, 255, 0.59);
+}
+
+.logo .logoText p {
+    width: 198px;
+    height: 18px;
+    flex-shrink: 0;
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 196.187%;
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    width: 662px;
+    height: 544px;
+    margin: 0px auto;
+}
+
+.login h1 {
+    margin: 69px auto 0px;
+    width: 404px;
+    height: 81px;
+    flex-shrink: 0;
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.login .name {
+    width: 552.937px;
+    height: 74.541px;
+    flex-shrink: 0;
+    margin: 17.78px auto 0px;
+    padding: 18.03px 51.64px;
+    border: 1px solid #cecece;
+    background-color: #fff;
+    color: #797667;
+    font-family: Crimson Text;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.login .pass {
+    width: 552.937px;
+    height: 74.541px;
+    flex-shrink: 0;
+    margin: 34px auto 0px;
+    padding: 18.03px 54.29px;
+    border: 1px solid #cecece;
+    background-color: #fff;
+    color: #797667;
+    font-family: Crimson Text;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.login button {
+    width: 552.937px;
+    height: 74.541px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    border: 1px solid #cecece;
+    background-color: #e16a00;
+    margin: 84.54px auto 34.37px;
+    color: #fff;
+    text-align: center;
+    font-family: Crimson Text;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
