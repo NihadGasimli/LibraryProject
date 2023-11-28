@@ -19,27 +19,31 @@ body {
 .logo .logoText {
     display: flex;
     flex-direction: column;
+    column-gap: 0px;
+    justify-content: center;
 }
 
 .logo .logoText h2 {
     width: 208px;
-    height: 20px;
     color: #fff;
     font-family: Montserrat;
     font-size: 14px;
     font-weight: 900;
     line-height: normal;
+    margin: 0px;
+    margin-bottom: 6.07px;
 }
 
 .logo .logoText hr {
     width: 203px;
     height: 1px;
     color: rgba(255, 255, 255, 0.59);
+    margin: 0px;
+    margin-bottom: 4.05px;
 }
 
 .logo .logoText p {
     width: 198px;
-    height: 18px;
     flex-shrink: 0;
     color: #fff;
     font-family: Montserrat;
@@ -47,6 +51,7 @@ body {
     font-style: normal;
     font-weight: 400;
     line-height: 196.187%;
+    margin: 0px;
 }
 
 .login {
