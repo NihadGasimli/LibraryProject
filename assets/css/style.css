@@ -1,0 +1,74 @@
+.leftSide {
+    background-color: #720418;
+    width: 355px;
+    height: 3575px;
+    margin: 0px;
+}
+
+.leftSide .logo {
+    display: flex;
+    align-items: center;
+    column-gap: 7.98px;
+    margin: 0px 0px 0px 35px;
+}
+
+.leftSide .logo .logoImage img {
+    width: 67.056px;
+    height: 105.861px;
+}
+
+.leftSide .logo .logoText h2 {
+    margin: 0px;
+    width: 207.553px;
+    height: 25.205px;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.leftSide .logo .logoText hr {
+    margin: 0px;
+    margin-top: 7.58px;
+    width: 202.764px;
+    color: rgba(255, 255, 255, 0.59);
+}
+
+.leftSide .logo .logoText p {
+    margin: 0px;
+    margin-top: 5.04px;
+    width: 197.974px;
+    height: 22.684px;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 196.187%;
+}
+
+.leftSide .menu ul li {
+    list-style: none;
+}
+
+.leftSide .menu ul li a {
+    text-decoration: none;
+    color: #fff;
+    width: 197.974px;
+    height: 13.071px;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 196.187%;
+}
+.leftSide .menu .imgAndTextOfMenuItem {
+    align-items: center;
+}
+
+.leftSide .menu .imgAndTextOfMenuItem img {
+    width: 75px;
+    height: 61px;
+}

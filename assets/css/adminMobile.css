@@ -1,49 +1,56 @@
-@media  (max-width: 680px){
-    .logo .logoImage img{
+@media (max-width: 680px) {
+    .logo .logoImage img {
         width: 35.882px;
         height: 54px;
     }
-    .logo .logoText h2{
+
+    .logo .logoText h2 {
         width: 111.063px;
         height: 12.857px;
     }
-    .logo .logoText hr{
+
+    .logo .logoText hr {
         width: 108.5px;
     }
-    .logo .logoText p{
+
+    .logo .logoText p {
         width: 105.937px;
         height: 11.571px;
     }
-    .login{
+
+    .login {
         width: 229.716px;
         height: 303.932px;
         flex-shrink: 0;
-        margin: 95px auto; 
+        margin: 95px auto;
     }
-    .login h1{
+
+    .login h1 {
         width: 152px;
         height: 64px;
         font-size: 20px;
         margin: 27px auto 0px;
     }
-    .login .name{
+
+    .login .name {
         width: 192.608px;
         height: 40.838px;
         flex-shrink: 0;
         font-size: 16px;
         margin: 2.46px auto 0px;
     }
-    .login .pass{
+
+    .login .pass {
         width: 192.608px;
         height: 40.838px;
         flex-shrink: 0;
         font-size: 16px;
         margin: 2.46px auto 0px;
     }
-    .login button{
+
+    .login button {
         width: 193.491px;
         height: 37.697px;
         margin: 25.92px auto 50.26px;
     }
 }
-    
