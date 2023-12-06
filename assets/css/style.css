@@ -5,8 +5,10 @@ section {
 .leftSide {
     background-color: #720418;
     width: 355px;
-    margin: 0px;
     height: 100vh;
+    margin: 0px;
+    position: fixed;
+    z-index: 999;
 }
 
 .leftSide .logo {
@@ -91,6 +93,8 @@ section {
 .rightSide {
     width: 1085px;
     background-color: #FFFAF5;
+    position: relative;
+    left: 354px;
 }
 
 .rightSide .adminButton {
@@ -99,6 +103,7 @@ section {
     column-gap: 6px;
     justify-content: flex-end;
     margin-right: 58px;
+    margin-top: 48px;
 }
 
 .rightSide .adminButton img {
@@ -131,10 +136,12 @@ section {
     font-weight: 600;
     line-height: 196.187%;
 }
-.rightSide .addBook .searchBook{
+
+.rightSide .addBook .searchBook {
     display: flex;
     flex-direction: column;
 }
+
 .rightSide .addBook .searchBook p {
     color: #333;
     font-family: Montserrat;
@@ -225,11 +232,300 @@ section {
     width: 15px;
     height: 17px;
 }
+
 .rightSide .addBook .searchBook .searchHistory .second p {
     width: 343px;
     height: 17px;
     color: #BCBCBC;
     font-family: Preahvihear;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.rightSide .bookForm {
+    display: flex;
+    flex-direction: column;
+    margin-top: 81px;
+    margin-left: 33px;
+    margin-bottom: 30px;
+    margin-right: 108px;
+}
+
+.rightSide .bookForm h2 {
+    color: #333;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 196.187%;
+}
+
+.rightSide .bookForm .aboutBook {
+    display: flex;
+    flex-direction: column;
+    width: 947px;
+    height: 599px;
+    align-items: flex-start;
+    row-gap: 24px;
+    border-radius: 20px;
+    background-color: #FFF;
+    padding: 16px 30px 30px 30px;
+}
+
+.rightSide .bookForm .aboutBook .bookName {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.rightSide .bookForm .aboutBook .bookName label {
+    color: #030102;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.rightSide .bookForm .aboutBook .bookName input {
+    width: 887px;
+    height: 40px;
+    padding: 8px 12px;
+    border-radius: 10px;
+    border: 1px solid #e2e6ee;
+    background-color: #FFF;
+    box-shadow: 0px 4px 18px 0px rgba(158, 168, 189, 0.31);
+}
+
+.rightSide .bookForm .aboutBook .authorName {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.rightSide .bookForm .aboutBook .authorName label {
+    color: #030102;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.rightSide .bookForm .aboutBook .authorName input {
+    width: 887px;
+    height: 40px;
+    padding: 8px 12px;
+    border-radius: 10px;
+    border: 1px solid #e2e6ee;
+    background-color: #FFF;
+    box-shadow: 0px 4px 18px 0px rgba(158, 168, 189, 0.31);
+}
+
+.rightSide .bookForm .aboutBook .bookImg {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.rightSide .bookForm .aboutBook .bookImg label {
+    color: #030102;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.rightSide .bookForm .aboutBook .bookImg input {
+    width: 887px;
+    height: 40px;
+    padding: 8px 12px;
+    border-radius: 10px;
+    border: 1px solid #e2e6ee;
+    background-color: #FFF;
+    box-shadow: 0px 4px 18px 0px rgba(158, 168, 189, 0.31);
+}
+
+.rightSide .bookForm .aboutBook .descriptionOfBook {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.rightSide .bookForm .aboutBook .descriptionOfBook label {
+    color: #030102;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.rightSide .bookForm .aboutBook .descriptionOfBook textarea {
+    width: 887px;
+    height: 89px;
+    padding: 8px 12px;
+    border-radius: 10px;
+    border: 1px solid #e2e6ee;
+    background-color: #fff;
+    box-shadow: 0px 4px 18px 0px rgba(158, 168, 189, 0.31);
+}
+
+.rightSide .bookForm .aboutBook .bookType {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.rightSide .bookForm .aboutBook .bookType label {
+    color: #030102;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.rightSide .bookForm .aboutBook .bookType select {
+    width: 887px;
+    height: 40px;
+    padding: 8px 12px;
+    border-radius: 10px;
+    border: 1px solid #e2e6ee;
+    background-color: #fff;
+    box-shadow: 0px 4px 18px 0px rgba(158, 168, 189, 0.31);
+}
+
+.rightSide .bookForm button {
+    height: 40px;
+    width: 887px;
+    padding: 12px 24px;
+    border-radius: 10px;
+    border: 0px;
+    background-color: #ff8b00;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+
+.rightSide .storeForm {
+    display: flex;
+    flex-direction: column;
+    margin-top: 81px;
+    margin-left: 33px;
+    margin-bottom: 30px;
+    margin-right: 108px;
+}
+
+.rightSide .storeForm h2 {
+    color: #333;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 196.187%;
+}
+
+.rightSide .storeForm .aboutStore {
+    display: flex;
+    flex-direction: column;
+    width: 947px;
+    height: 415px;
+    align-items: flex-start;
+    row-gap: 24px;
+    border-radius: 20px;
+    background-color: #FFF;
+    padding: 16px 30px 30px 30px;
+}
+.rightSide .storeForm .aboutStore .title {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.rightSide .storeForm .aboutStore .title label {
+    color: #030102;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.rightSide .storeForm .aboutStore .title input {
+    width: 887px;
+    height: 40px;
+    padding: 8px 12px;
+    border-radius: 10px;
+    border: 1px solid #e2e6ee;
+    background-color: #FFF;
+    box-shadow: 0px 4px 18px 0px rgba(158, 168, 189, 0.31);
+}
+.rightSide .storeForm .aboutStore .descriptionOfStore {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.rightSide .storeForm .aboutStore .descriptionOfStore label {
+    color: #030102;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.rightSide .storeForm .aboutStore .descriptionOfStore textarea {
+    width: 887px;
+    height: 89px;
+    padding: 8px 12px;
+    border-radius: 10px;
+    border: 1px solid #e2e6ee;
+    background-color: #fff;
+    box-shadow: 0px 4px 18px 0px rgba(158, 168, 189, 0.31);
+}
+.rightSide .storeForm .aboutStore .bookImg {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.rightSide .storeForm .aboutStore .bookImg label {
+    color: #030102;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.rightSide .storeForm .aboutStore .bookImg input {
+    width: 887px;
+    height: 40px;
+    padding: 8px 12px;
+    border-radius: 10px;
+    border: 1px solid #e2e6ee;
+    background-color: #FFF;
+    box-shadow: 0px 4px 18px 0px rgba(158, 168, 189, 0.31);
+}
+.rightSide .storeForm .aboutStore button{
+    height: 40px;
+    width: 887px;
+    padding: 12px 24px;
+    border-radius: 10px;
+    border: 0px;
+    background-color: #ff8b00;
+    color: #FFF;
+    font-family: Roboto;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
