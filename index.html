@@ -15,12 +15,16 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap"
         rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Preahvihear&display=swap" rel="stylesheet">
     <link href="./assets/css/style.css" rel="stylesheet" />
     <title>Document</title>
 </head>
 
 <body>
-    <div class="container-fluid">
+    <section>
         <div class="leftSide">
             <div class="logo">
                 <div class="logoImage">
@@ -45,22 +49,26 @@
                             <img src="./assets/images/books-stack-of-three 2 (2).svg" />
                             <a href="">Books</a>
                         </div>
-                    </li><li>
+                    </li>
+                    <li>
                         <div class="imgAndTextOfMenuItem">
                             <img src="./assets/images/books-stack-of-three 2 (2).svg" />
                             <a href="">About</a>
                         </div>
-                    </li><li>
+                    </li>
+                    <li>
                         <div class="imgAndTextOfMenuItem">
                             <img src="./assets/images/books-stack-of-three 2 (2).svg" />
                             <a href="">Join us</a>
                         </div>
-                    </li><li>
+                    </li>
+                    <li>
                         <div class="imgAndTextOfMenuItem">
                             <img src="./assets/images/books-stack-of-three 2 (2).svg" />
                             <a href="">Contact</a>
                         </div>
-                    </li><li>
+                    </li>
+                    <li>
                         <div class="imgAndTextOfMenuItem">
                             <img src="./assets/images/books-stack-of-three 2 (2).svg" />
                             <a href="">Logout</a>
@@ -69,7 +77,63 @@
                 </ul>
             </div>
         </div>
-    </div>
+        
+        <div class="rightSide">
+            <div class="adminButton">
+                <img src="./assets/images/akar-icons_heart.svg">
+                <h2>Admin</h2>
+            </div>
+            <div class="addBook">
+                <h2>Add book</h2>
+                <div class="searchBook">
+                    <p>Search book</p>
+                    <div class="searchBar">
+                        <input type="text" placeholder="Dan Brown" />
+                        <button><img src="./assets/images/Group 244.svg" /></button>
+                    </div>
+                    <div class="searchHistory">
+                        <div class="first">
+                            <img src="./assets/images/clock.svg"/>
+                            <p>Dan Brown Davinc</p>
+                        </div>
+                        <div class="second">
+                            <img src="./assets/images/clock.svg"/>
+                            <p>Dan Brown Angel</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bookForm">
+                <h2>Book form</h2>
+                <div class="aboutBook">
+                    <div class="bookName">
+                        <label>Book Name</label>
+                        <input type="text" placeholder="Angels" />
+                    </div>
+                    <div class="authorName">
+                        <label>Author Name</label>
+                        <input type="text" placeholder="Dan Brown" />
+                    </div>
+                    <div class="bookImg">
+                        <label>Book Image Url</label>
+                        <input type="url" placeholder="Alex Smith" />
+                    </div>
+                    <div class="descriptionOfBook">
+                        <label>Description</label>
+                        <textarea></textarea>
+                    </div>
+                    <div class="bookType">
+                        <label>Book Type</label>
+                        <select>
+                            <option>Fantastic</option>
+                            <option>Bombastic</option>
+                            <option>Dramatic</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
 
 </html>

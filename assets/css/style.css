@@ -1,15 +1,20 @@
+section {
+    display: flex;
+}
+
 .leftSide {
     background-color: #720418;
     width: 355px;
-    height: 3575px;
     margin: 0px;
+    height: 100vh;
 }
 
 .leftSide .logo {
     display: flex;
     align-items: center;
     column-gap: 7.98px;
-    margin: 0px 0px 0px 35px;
+    margin: 0px 0px 8px 35px;
+    padding-top: 93.3px;
 }
 
 .leftSide .logo .logoImage img {
@@ -33,6 +38,7 @@
     margin: 0px;
     margin-top: 7.58px;
     width: 202.764px;
+    height: 1px;
     color: rgba(255, 255, 255, 0.59);
 }
 
@@ -47,6 +53,14 @@
     font-style: normal;
     font-weight: 400;
     line-height: 196.187%;
+}
+
+.leftSide .menu ul {
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
 }
 
 .leftSide .menu ul li {
@@ -64,6 +78,7 @@
     font-weight: 400;
     line-height: 196.187%;
 }
+
 .leftSide .menu .imgAndTextOfMenuItem {
     align-items: center;
 }
@@ -71,4 +86,152 @@
 .leftSide .menu .imgAndTextOfMenuItem img {
     width: 75px;
     height: 61px;
+}
+
+.rightSide {
+    width: 1085px;
+    background-color: #FFFAF5;
+}
+
+.rightSide .adminButton {
+    display: flex;
+    flex-direction: row;
+    column-gap: 6px;
+    justify-content: flex-end;
+    margin-right: 58px;
+}
+
+.rightSide .adminButton img {
+    width: 24px;
+    height: 31px;
+}
+
+.rightSide .adminButton h2 {
+    color: #241400;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    align-self: center;
+    padding: 12px 0px;
+}
+
+.rightSide .addBook {
+    display: flex;
+    flex-direction: column;
+    margin: 51px 0px 0px 33px;
+}
+
+.rightSide .addBook h2 {
+    color: #333;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 196.187%;
+}
+.rightSide .addBook .searchBook{
+    display: flex;
+    flex-direction: column;
+}
+.rightSide .addBook .searchBook p {
+    color: #333;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 196.187%;
+}
+
+.rightSide .addBook .searchBook .searchBar {
+    display: flex;
+    column-gap: 7px;
+}
+
+.rightSide .addBook .searchBook .searchBar input {
+    width: 395px;
+    height: 41px;
+    border-radius: 34px;
+    border: 2px solid rgba(57, 31, 0, 0.48);
+    background-color: #fff;
+    padding: 10px 33px;
+    color: #ADADAD;
+    font-family: Preahvihear;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.rightSide .addBook .searchBook .searchBar button {
+    background-color: #ff8b00;
+    border-radius: 34px;
+    padding: 12px 24px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    border: 0px;
+}
+
+.rightSide .addBook .searchBook .searchBar button img {
+    width: 17px;
+    height: 23.111px;
+}
+
+.rightSide .addBook .searchBook .searchHistory {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #f1f0f0;
+    width: 388px;
+    height: 85px;
+    border-radius: 35px;
+    margin-top: 6px;
+    padding: 20px 0px 18px 36px;
+}
+
+.rightSide .addBook .searchBook .searchHistory .first {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 24px;
+}
+
+.rightSide .addBook .searchBook .searchHistory .first img {
+    width: 15px;
+    height: 17px;
+}
+
+.rightSide .addBook .searchBook .searchHistory .first p {
+    width: 343px;
+    height: 17px;
+    color: #BCBCBC;
+    font-family: Preahvihear;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.rightSide .addBook .searchBook .searchHistory .second {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 24px;
+}
+
+.rightSide .addBook .searchBook .searchHistory .second img {
+    width: 15px;
+    height: 17px;
+}
+.rightSide .addBook .searchBook .searchHistory .second p {
+    width: 343px;
+    height: 17px;
+    color: #BCBCBC;
+    font-family: Preahvihear;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
