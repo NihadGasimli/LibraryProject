@@ -5,7 +5,7 @@ section {
 
 .leftSide {
     background-color: #720418;
-    width: 20%;
+    width: 28%;
     height: 100vh;
     margin: 0px;
 }
@@ -579,7 +579,7 @@ section {
 }
 
 .rightSide .joinUs table tr td {
-    color:#05111A;
+    color: #05111A;
     text-align: center;
     font-family: Nunito Sans;
     font-size: 14px;
@@ -587,4 +587,110 @@ section {
     font-weight: 400;
     line-height: 115%;
     letter-spacing: 0.14px;
+}
+
+.rightSide .books {
+    margin-top: 136px;
+    margin-left: 75px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.rightSide .books h2 {
+    color: #333
+    font-family: Montserrat;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 196.187%;
+}
+.rightSide .books table{
+    width: 95%;
+    height: 97px;
+    margin-right: 45px;
+}
+.rightSide .books table tr {
+    background-color: #FFF;
+    text-align: center;
+    height: 48px;
+    box-shadow: 0px -1px 0px 0px #E6E7E9 inset, 0px 1px 0px 0px #E6E7E9 inset;
+    padding: 8px 16px;
+}
+
+.rightSide .books table tr:nth-child(1) td{
+    background-color: #720418;
+    box-shadow: 0px -1px 0px 0px #E6E7E9 inset;
+    color: #Fff;
+    font-family: Nunito Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 115%;
+    letter-spacing: 0.14px;
+    padding: 8px 0px;
+}
+.rightSide .books table tr td {
+    color: #05111A;
+    text-align: center;
+    font-family: Nunito Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 115%;
+    letter-spacing: 0.14px;
+}
+
+.rightSide .contactUs{
+    margin-top: 298px;
+    margin-left: 75px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.rightSide .contactUs h2 {
+    color: #333
+    font-family: Montserrat;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 196.187%;
+}
+.rightSide .contactUs table{
+    width: 95%;
+    height: 97px;
+    margin-right: 45px;
+}
+.rightSide .contactUs table tr {
+    background-color: #FFF;
+    text-align: center;
+    height: 48px;
+    box-shadow: 0px -1px 0px 0px #E6E7E9 inset, 0px 1px 0px 0px #E6E7E9 inset;
+    padding: 8px 16px;
+}
+
+.rightSide .contactUs table tr:nth-child(1) td{
+    background-color: #720418;
+    box-shadow: 0px -1px 0px 0px #E6E7E9 inset;
+    color: #Fff;
+    font-family: Nunito Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 115%;
+    letter-spacing: 0.14px;
+    padding: 8px 0px;
+}
+.rightSide .contactUs table tr td {
+    color: #05111A;
+    text-align: center;
+    font-family: Nunito Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 115%;
+    letter-spacing: 0.14px;
+}
+.rightSide .contactUs table tr td:nth-child(1){
+    padding-left: 10px;
 }
