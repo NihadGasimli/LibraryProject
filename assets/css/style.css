@@ -642,8 +642,7 @@ section {
 }
 
 .rightSide .contactUs{
-    margin-top: 298px;
-    margin-left: 75px;
+    margin: 298px 0px 438px 75px;
     display: flex;
     flex-direction: column;
     row-gap: 10px;
